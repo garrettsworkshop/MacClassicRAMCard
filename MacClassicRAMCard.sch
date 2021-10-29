@@ -255,18 +255,6 @@ F 3 "~" H 8550 5700 50  0001 C CNN
 	1    8550 5700
 	1    0    0    -1  
 $EndComp
-Text Label 6600 2750 0    50   ~ 0
-DQ4
-Text Label 6600 2850 0    50   ~ 0
-DQ5
-Text Label 6600 2950 0    50   ~ 0
-DQ6
-Text Label 6600 3050 0    50   ~ 0
-DQ7
-Text Label 6600 2650 0    50   ~ 0
-DQ3
-Text Label 6600 2450 0    50   ~ 0
-DQ1
 Text Label 5800 2450 2    50   ~ 0
 A0
 Text Label 5800 2550 2    50   ~ 0
@@ -287,10 +275,6 @@ Text Label 5800 3250 2    50   ~ 0
 A8
 Text Label 5800 3350 2    50   ~ 0
 A9
-Text Label 6600 2550 0    50   ~ 0
-DQ2
-Text Label 6600 2350 0    50   ~ 0
-DQ0
 Connection ~ 9550 6050
 $Comp
 L GW_RAM:DRAM-1Mx16-SOP-42 U1
@@ -298,7 +282,7 @@ U 1 1 60CFBCF9
 P 6200 3150
 F 0 "U1" H 6200 3950 50  0000 C CNN
 F 1 "AS4C1M16F5" V 6200 3150 50  0000 C CNN
-F 2 "stdpads:SOJ-42-400mil-Skinny" H 6200 2200 50  0001 C CNN
+F 2 "stdpads:SOJ-42_400mil" H 6200 2200 50  0001 C CNN
 F 3 "" H 6200 2800 50  0001 C CNN
 	1    6200 3150
 	1    0    0    -1  
@@ -313,22 +297,6 @@ Text Label 5800 3850 2    50   ~ 0
 ~OE~0
 Text Label 5800 3450 2    50   ~ 0
 L~CAS~0
-Text Label 6600 3650 0    50   ~ 0
-DQ12
-Text Label 6600 3750 0    50   ~ 0
-DQ13
-Text Label 6600 3850 0    50   ~ 0
-DQ14
-Text Label 6600 3950 0    50   ~ 0
-DQ15
-Text Label 6600 3550 0    50   ~ 0
-DQ11
-Text Label 6600 3350 0    50   ~ 0
-DQ9
-Text Label 6600 3450 0    50   ~ 0
-DQ10
-Text Label 6600 3250 0    50   ~ 0
-DQ8
 $Comp
 L power:GND #PWR0101
 U 1 1 60D0B9EF
@@ -351,18 +319,6 @@ F 3 "" H 5800 2350 50  0001 C CNN
 	1    5800 2350
 	-1   0    0    -1  
 $EndComp
-Text Label 8200 2750 0    50   ~ 0
-DQ4
-Text Label 8200 2850 0    50   ~ 0
-DQ5
-Text Label 8200 2950 0    50   ~ 0
-DQ6
-Text Label 8200 3050 0    50   ~ 0
-DQ7
-Text Label 8200 2650 0    50   ~ 0
-DQ3
-Text Label 8200 2450 0    50   ~ 0
-DQ1
 Text Label 7400 2450 2    50   ~ 0
 A0
 Text Label 7400 2550 2    50   ~ 0
@@ -383,17 +339,13 @@ Text Label 7400 3250 2    50   ~ 0
 A8
 Text Label 7400 3350 2    50   ~ 0
 A9
-Text Label 8200 2550 0    50   ~ 0
-DQ2
-Text Label 8200 2350 0    50   ~ 0
-DQ0
 $Comp
 L GW_RAM:DRAM-1Mx16-SOP-42 U2
 U 1 1 60D12031
 P 7800 3150
 F 0 "U2" H 7800 3950 50  0000 C CNN
 F 1 "AS4C1M16F5" V 7800 3150 50  0000 C CNN
-F 2 "stdpads:SOJ-42-400mil-Skinny" H 7800 2200 50  0001 C CNN
+F 2 "stdpads:SOJ-42_400mil" H 7800 2200 50  0001 C CNN
 F 3 "" H 7800 2800 50  0001 C CNN
 	1    7800 3150
 	1    0    0    -1  
@@ -408,21 +360,7 @@ Text Label 7400 3850 2    50   ~ 0
 ~OE~1
 Text Label 7400 3450 2    50   ~ 0
 L~CAS~1
-Text Label 8200 3650 0    50   ~ 0
-DQ12
-Text Label 8200 3750 0    50   ~ 0
-DQ13
-Text Label 8200 3850 0    50   ~ 0
-DQ14
-Text Label 8200 3950 0    50   ~ 0
-DQ15
-Text Label 8200 3550 0    50   ~ 0
-DQ11
 Text Label 8200 3350 0    50   ~ 0
-DQ9
-Text Label 8200 3450 0    50   ~ 0
-DQ10
-Text Label 8200 3250 0    50   ~ 0
 DQ8
 $Comp
 L power:GND #PWR0103
@@ -782,4 +720,66 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3750 3750 50  0001 C CNN
 	3    3750 3750
 	1    0    0    -1  
 $EndComp
+Text Label 6600 2950 0    50   ~ 0
+DQ0
+Text Label 6600 2750 0    50   ~ 0
+DQ1
+Text Label 6600 2850 0    50   ~ 0
+DQ5
+Text Label 6600 3050 0    50   ~ 0
+DQ4
+Text Label 6600 2650 0    50   ~ 0
+DQ6
+Text Label 6600 2450 0    50   ~ 0
+DQ7
+Text Label 6600 2550 0    50   ~ 0
+DQ2
+Text Label 6600 2350 0    50   ~ 0
+DQ3
+Text Label 8200 2950 0    50   ~ 0
+DQ0
+Text Label 8200 2750 0    50   ~ 0
+DQ1
+Text Label 8200 2850 0    50   ~ 0
+DQ5
+Text Label 8200 3050 0    50   ~ 0
+DQ4
+Text Label 8200 2650 0    50   ~ 0
+DQ6
+Text Label 8200 2450 0    50   ~ 0
+DQ7
+Text Label 8200 2550 0    50   ~ 0
+DQ2
+Text Label 8200 2350 0    50   ~ 0
+DQ3
+Text Label 8200 3750 0    50   ~ 0
+DQ12
+Text Label 8200 3950 0    50   ~ 0
+DQ13
+Text Label 8200 3650 0    50   ~ 0
+DQ14
+Text Label 8200 3850 0    50   ~ 0
+DQ15
+Text Label 6600 3750 0    50   ~ 0
+DQ12
+Text Label 6600 3950 0    50   ~ 0
+DQ13
+Text Label 6600 3650 0    50   ~ 0
+DQ14
+Text Label 6600 3850 0    50   ~ 0
+DQ15
+Text Label 8200 3250 0    50   ~ 0
+DQ10
+Text Label 8200 3550 0    50   ~ 0
+DQ9
+Text Label 8200 3450 0    50   ~ 0
+DQ11
+Text Label 6600 3350 0    50   ~ 0
+DQ8
+Text Label 6600 3250 0    50   ~ 0
+DQ10
+Text Label 6600 3550 0    50   ~ 0
+DQ9
+Text Label 6600 3450 0    50   ~ 0
+DQ11
 $EndSCHEMATC
