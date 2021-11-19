@@ -1,4 +1,4 @@
-### Module positions - created on Tuesday, November 16, 2021 at 11:45:24 PM ###
+### Module positions - created on Thursday, November 18, 2021 at 11:27:27 PM ###
 ### Printed by Pcbnew version kicad (5.1.10-1-10_14)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -10,12 +10,10 @@ C4        2u2         C_0805             115.5700  -109.4350  270.0000  top
 C5        2u2         C_0805             146.0500  -109.4350  270.0000  top
 C6        2u2         C_0805             115.5700   -95.4650  270.0000  top
 C7        2u2         C_0805             146.0500   -95.4650  270.0000  top
-FID1      Fiducial    Fiducial            92.9640  -118.3640  180.0000  top
-FID2      Fiducial    Fiducial           148.3360  -118.3640  180.0000  top
-FID3      Fiducial    Fiducial            95.5040   -90.4240    0.0000  top
-FID4      Fiducial    Fiducial           145.7960   -90.4240    0.0000  top
-FID5      Fiducial    Fiducial            96.7740  -133.3500  180.0000  top
-FID6      Fiducial    Fiducial           144.5260  -133.3500  180.0000  top
+FID1      Fiducial    Fiducial            94.2340  -130.8100  180.0000  top
+FID2      Fiducial    Fiducial           147.0660  -130.8100  180.0000  top
+FID3      Fiducial    Fiducial           150.8760   -90.4240    0.0000  top
+FID4      Fiducial    Fiducial            90.4240   -90.4240    0.0000  top
 U1        AS4C1M16F5  SOJ-42_400mil      130.8100   -99.0600  270.0000  top
 U2        AS4C1M16F5  SOJ-42_400mil      130.8100  -113.0300  270.0000  top
 U3        74HCT08D    SOIC-14_3.9mm      104.1400  -113.0300    0.0000  top

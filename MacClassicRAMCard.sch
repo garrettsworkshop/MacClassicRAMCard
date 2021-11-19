@@ -16,23 +16,23 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5EDC8F09
-P 2700 3400
-F 0 "H3" H 2800 3403 50  0000 L CNN
-F 1 " " H 2800 3358 50  0001 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 2700 3400 50  0001 C CNN
-F 3 "~" H 2700 3400 50  0001 C CNN
-	1    2700 3400
+P 3300 3400
+F 0 "H3" H 3400 3403 50  0000 L CNN
+F 1 " " H 3400 3358 50  0001 L CNN
+F 2 "stdpads:PasteHole_1.1mm_PTH" H 3300 3400 50  0001 C CNN
+F 3 "~" H 3300 3400 50  0001 C CNN
+	1    3300 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5EDC8F0F
-P 3000 3400
-F 0 "H4" H 3100 3403 50  0000 L CNN
-F 1 " " H 3100 3358 50  0001 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 3000 3400 50  0001 C CNN
-F 3 "~" H 3000 3400 50  0001 C CNN
-	1    3000 3400
+P 3600 3400
+F 0 "H4" H 3700 3403 50  0000 L CNN
+F 1 " " H 3700 3358 50  0001 L CNN
+F 2 "stdpads:PasteHole_1.1mm_PTH" H 3600 3400 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -49,23 +49,23 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5EE01FE6
-P 2400 3400
-F 0 "H2" H 2500 3403 50  0000 L CNN
-F 1 " " H 2500 3358 50  0001 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 2400 3400 50  0001 C CNN
-F 3 "~" H 2400 3400 50  0001 C CNN
-	1    2400 3400
+P 3000 3400
+F 0 "H2" H 3100 3403 50  0000 L CNN
+F 1 " " H 3100 3358 50  0001 L CNN
+F 2 "stdpads:PasteHole_1.1mm_PTH" H 3000 3400 50  0001 C CNN
+F 3 "~" H 3000 3400 50  0001 C CNN
+	1    3000 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5EE01FE0
-P 2100 3400
-F 0 "H1" H 2200 3403 50  0000 L CNN
-F 1 " " H 2200 3358 50  0001 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 2100 3400 50  0001 C CNN
-F 3 "~" H 2100 3400 50  0001 C CNN
-	1    2100 3400
+P 2700 3400
+F 0 "H1" H 2800 3403 50  0000 L CNN
+F 1 " " H 2800 3358 50  0001 L CNN
+F 2 "stdpads:PasteHole_1.1mm_PTH" H 2700 3400 50  0001 C CNN
+F 3 "~" H 2700 3400 50  0001 C CNN
+	1    2700 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -205,8 +205,19 @@ Connection ~ 700  3900
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5EDCCFC0
+P 3100 3650
+F 0 "FID4" H 3185 3696 50  0000 L CNN
+F 1 "Fiducial" H 3185 3605 50  0000 L CNN
+F 2 "stdpads:Fiducial" H 3100 3650 50  0001 C CNN
+F 3 "~" H 3100 3650 50  0001 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5EDCCA31
 P 2100 3650
-F 0 "FID4" H 2185 3696 50  0000 L CNN
+F 0 "FID2" H 2185 3696 50  0000 L CNN
 F 1 "Fiducial" H 2185 3605 50  0000 L CNN
 F 2 "stdpads:Fiducial" H 2100 3650 50  0001 C CNN
 F 3 "~" H 2100 3650 50  0001 C CNN
@@ -214,25 +225,14 @@ F 3 "~" H 2100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
-U 1 1 5EDCCA31
-P 1100 3650
-F 0 "FID2" H 1185 3696 50  0000 L CNN
-F 1 "Fiducial" H 1185 3605 50  0000 L CNN
-F 2 "stdpads:Fiducial" H 1100 3650 50  0001 C CNN
-F 3 "~" H 1100 3650 50  0001 C CNN
-	1    1100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:Fiducial FID1
 U 1 1 5EDCC581
-P 1100 3400
-F 0 "FID1" H 1185 3446 50  0000 L CNN
-F 1 "Fiducial" H 1185 3355 50  0000 L CNN
-F 2 "stdpads:Fiducial" H 1100 3400 50  0001 C CNN
-F 3 "~" H 1100 3400 50  0001 C CNN
-	1    1100 3400
+P 2100 3400
+F 0 "FID1" H 2185 3446 50  0000 L CNN
+F 1 "Fiducial" H 2185 3355 50  0000 L CNN
+F 2 "stdpads:Fiducial" H 2100 3400 50  0001 C CNN
+F 3 "~" H 2100 3400 50  0001 C CNN
+	1    2100 3400
 	1    0    0    -1  
 $EndComp
 Text Label 4700 1450 2    50   ~ 0
@@ -790,74 +790,24 @@ Text Label 3950 2250 2    50   ~ 0
 U~CAS~1
 Text Notes 1900 1250 0    50   ~ 0
 U3A and U3B combine the /CAS signals for the two 256kx4 banks.\nU3C and U3D generate /OE signals to the DRAMs.\nOn the original Classic RAM card /OE is tied low.\nThis arrangement lets us use EDO DRAM.
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 628D26D2
-P 3300 3400
-F 0 "H5" H 3400 3403 50  0000 L CNN
-F 1 " " H 3400 3358 50  0001 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 3300 3400 50  0001 C CNN
-F 3 "~" H 3300 3400 50  0001 C CNN
-	1    3300 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 628D4315
-P 3600 3400
-F 0 "H6" H 3700 3403 50  0000 L CNN
-F 1 " " H 3700 3358 50  0001 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 3600 3400 50  0001 C CNN
-F 3 "~" H 3600 3400 50  0001 C CNN
-	1    3600 3400
-	1    0    0    -1  
-$EndComp
-Connection ~ 2400 3500
-Connection ~ 2700 3500
 Connection ~ 3000 3500
-Wire Wire Line
-	2400 3500 2700 3500
-Wire Wire Line
-	2700 3500 3000 3500
+Connection ~ 3300 3500
 Wire Wire Line
 	3000 3500 3300 3500
-Connection ~ 3600 3500
-Connection ~ 3300 3500
 Wire Wire Line
 	3300 3500 3600 3500
 Wire Wire Line
-	2100 3500 2400 3500
+	2700 3500 3000 3500
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5EDCCCF0
-P 1600 3650
-F 0 "FID3" H 1685 3696 50  0000 L CNN
-F 1 "Fiducial" H 1685 3605 50  0000 L CNN
-F 2 "stdpads:Fiducial" H 1600 3650 50  0001 C CNN
-F 3 "~" H 1600 3650 50  0001 C CNN
-	1    1600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Fiducial FID6
-U 1 1 628E0825
-P 3100 3650
-F 0 "FID6" H 3185 3696 50  0000 L CNN
-F 1 "Fiducial" H 3185 3605 50  0000 L CNN
-F 2 "stdpads:Fiducial" H 3100 3650 50  0001 C CNN
-F 3 "~" H 3100 3650 50  0001 C CNN
-	1    3100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Fiducial FID5
-U 1 1 628E082B
 P 2600 3650
-F 0 "FID5" H 2685 3696 50  0000 L CNN
+F 0 "FID3" H 2685 3696 50  0000 L CNN
 F 1 "Fiducial" H 2685 3605 50  0000 L CNN
 F 2 "stdpads:Fiducial" H 2600 3650 50  0001 C CNN
 F 3 "~" H 2600 3650 50  0001 C CNN
 	1    2600 3650
 	1    0    0    -1  
 $EndComp
+Connection ~ 3600 3500
 $EndSCHEMATC
