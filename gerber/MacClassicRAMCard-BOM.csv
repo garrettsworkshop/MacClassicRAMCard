@@ -1,0 +1,8 @@
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","LCSC Part"
+"C1, C2, C3, C4, C5, C6, C7, ","7","2u2","C_Small","stdpads:C_0805","Unpolarized capacitor, small symbol","",""
+"FID1, FID2, FID3, FID4, ","4","Fiducial","Fiducial","stdpads:Fiducial","Fiducial Marker","",""
+"H1, H2, H3, H4, ","4","","MountingHole_Pad","stdpads:PasteHole_1.1mm_PTH","Mounting Hole with connection","",""
+"H5, H6, H7, ","3","","MountingHole_Pad","stdpads:PasteHole_1.152mm_NPTH","Mounting Hole with connection","",""
+"J1, ","1","RAM Exp.","Conn_02x22_Odd_Even","stdpads:PinSocket_2x22_P2.54mm_Horizontal","Generic connector, double row, 02x22, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)","",""
+"U1, U2, ","2","AS4C1M16F5","DRAM-1Mx16-SOP-42","stdpads:SOJ-42_400mil","","",""
+"U3, ","1","74HCT08D","74LS08","stdpads:SOIC-14_3.9mm","Quad And2","",""
